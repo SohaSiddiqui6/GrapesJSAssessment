@@ -18,3 +18,5 @@ Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 # GrapesJsAssessment
+![ss-123](https://user-images.githubusercontent.com/33723292/124817025-aad8a780-df82-11eb-826c-b9459451a0ea.png)
+
