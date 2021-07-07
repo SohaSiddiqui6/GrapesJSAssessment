@@ -3,6 +3,7 @@ import grapesjs from "grapesjs";
 import gjsPresetWebage from "grapesjs-preset-webpage";
 import "./styles/main.css";
 import ArtworkBlock from "./ArtworkBlock";
+import ButtonComponent from "./ButtonComponent";
 
 const Editor = () => {
 
@@ -29,6 +30,7 @@ const Editor = () => {
     });
 
     ArtworkBlock(editor);
+    ButtonComponent(editor);
   }, []);
   
   
@@ -38,6 +40,7 @@ return (
     <>
     <div id="gjs"></div>
     <div id="my-block-id"></div>
+    <div id="button-id"></div>
     {/* <CustomBlocks editor={editor}/> */}
     
     </>

@@ -4,10 +4,13 @@ const ArtworkBlock = (editor) => {
     blockManager.add('my-block-id', {
         // ...
         label:"ArtWork Presenter",
-        attributes: { title : 'ArtWork Presenter' },
+        attributes: {
+          class: 'fa fa-cube'
+      },
         content: {
           tagName: 'Root',
           draggable: true,
+          editable: true,
           style: {
             height: '100%',
             width: '100%',
